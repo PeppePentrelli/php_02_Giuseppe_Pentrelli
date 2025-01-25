@@ -41,5 +41,44 @@ foreach($users as $user) {
 };
 
 // Fine quarto selfwork
+
+
+// ! Inizio Quinto selfwork
+
+
+$numeri = [10,5,23,45,95,7,98,60,200];
+$somma =0;
+$accumulatore =0;
+
+echo 'Tutti i numeri sono: ' . "\n"; 
+
+foreach($numeri as $numero) { 
+
+echo $numero . "\n";
+
+
+};
+
+
+echo 'I numeri pari sono: ' . "\n" ;
+
+foreach($numeri as $numero) { 
+
+    if ($numero % 2 == 0) {
+
+     $accumulatore++;
+      echo $numero . "\n" ; 
+
+      
+      $somma = $somma += $numero;
+      $divisione = $somma / $accumulatore ;
+    };
+
+};
+
+echo 'è la loro media è : ' . $divisione;
+
+// ! Fine Quinto selfwork
+
 ?>
 
