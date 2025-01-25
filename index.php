@@ -80,5 +80,36 @@ echo 'è la loro media è : ' . $divisione;
 
 // ! Fine Quinto selfwork
 
+// ? Inizio sesto selfowork PHP
+
+echo "\n";
+
+for ($i=1; $i <= 100 ; $i++) { 
+ 
+    if ($i % 3 == 0) {
+       
+        echo 'PHP' . "\n";
+        
+    } elseif ($i % 5 == 0) {
+
+echo 'JAVASCRIPT' . "\n";
+
+    } elseif ($i % 3 == 0 && $i % 5 == 0) {
+
+echo 'HACKADEMY' . "\n";
+
+    } else {
+
+        echo $i . " \n";
+    };
+    
+};
+
+
+
+// ? Fine sesto selfowork PHP
+
+
+
 ?>
 
